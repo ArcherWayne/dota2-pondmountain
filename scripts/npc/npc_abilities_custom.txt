@@ -6,11 +6,14 @@
 	//=================================================================================================================
 	// Templar Assassin: Refraction Holdout
 	//=================================================================================================================
-	"templar_assassin_refraction_holdout"
+	"blink_for_ta"
 	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"blink_for_ta"			// name of the ability
+
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
 
 		// Casting
@@ -19,11 +22,11 @@
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"17.0 17.0 17.0 17.0"
+		"AbilityCooldown"				"0.1 0.1 0.1 0.1"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"100"
+		"AbilityManaCost"				"1"
 		
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
