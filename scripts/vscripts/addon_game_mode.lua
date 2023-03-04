@@ -26,7 +26,7 @@ function CAddonTemplateGameMode:InitGameMode()
 
 
 	-- here insert some new units
-	CreateUnitByName("npc_dota_creature_gnoll_assassin", Vector(2000, -1500, 0), true, nil, nil, DOTA_TEAM_GOODGUYS)
+	CreateUnitByName("npc_dota_creature_gnoll_assassin", Vector(-2000, -1500, 0), true, nil, nil, DOTA_TEAM_BADGUYS)
 	-- Creates a DOTA unit by its dota_npc_units.txt name
 end
 
