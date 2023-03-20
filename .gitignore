@@ -1,5 +1,9 @@
+.idea/*
+.__pycache__/*
 /maps
 /materials
 /particles
 /resource
 *.bin
+*.txt
+
